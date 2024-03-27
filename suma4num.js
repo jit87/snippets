@@ -1,3 +1,7 @@
+//Algoritmo que suma por separado los cuatro menores y mayores numeros de un vector de 5 posiciones
+
+var arr = [5,4,2,1,9];
+
 //Variable temporal para almacenar el valor antes de que se modifique
 var temp; 
 

@@ -2,7 +2,7 @@
 //En el formato de 12 horas, la medianoche se representa como 12:00:00AM y el mediodía como 12:00:00PM. 
 //Sin embargo, en el formato de 24 horas, la medianoche es 00:00:00 y el mediodía es 12:00:00.
 
-function timeConversion(s) {
+function conversionHora(s) {
 
 var periodo = s.substring(8);
 var hora = parseInt(s.substring(0, 2));
@@ -25,4 +25,4 @@ else
 }
 
 
-timeConversion("04:59:59AM");
+conversionHora("04:59:59AM");

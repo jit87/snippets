@@ -1,5 +1,5 @@
-//Algoritmo que redondea los numeros de un vector. Siempre que la distancia al multiplo de 5 superior al numero sea menor o igual a 2.
-//Partimos del último digito de cada numero y se compara con 5. Luego obtenemos la difenecia con respecto al multiplo de 5 superior.
+//Algoritmo que redondea los números de un vector. Siempre que la diferencia con el múltiplo de 5 superior al número sea menor o igual a 2.
+//Partimos del último dígito de cada numero y se compara con 5. Luego obtenemos la difenecia con respecto al multiplo de 5 superior.
 //Finalmente imprimimos el vector redondeado.
 
 var valores = [4,73,67,38,33];
@@ -7,7 +7,7 @@ var arrResult = [];
 
 
 function redondeoNumeros(valores) {
-    // Write your code here
+    
     var diferencia;
     var arrResult = [];
   

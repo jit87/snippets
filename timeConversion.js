@@ -4,8 +4,8 @@
 
 function timeConversion(s) {
 
-  var periodo = s.substring(8);
-  var hora = parseInt(s.substring(0, 2));
+var periodo = s.substring(8);
+var hora = parseInt(s.substring(0, 2));
 
 if(periodo==="AM"){
       if (hora === 12) {

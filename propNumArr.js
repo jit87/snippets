@@ -1,4 +1,4 @@
-//Dado un vector (arr) devuelve la proporción de elementos positivos, negativos y nulos con 6 decimales
+// Dado un vector (arr) devuelve la proporción de elementos positivos, negativos y nulos con 6 decimales
 
 var arr = [1,2,3,-1,-1,0,0,7];
 

@@ -1,4 +1,4 @@
-//Algoritmo que devuelve la resta entre las dos diagonales de la matriz
+// Algoritmo que devuelve la resta entre las dos diagonales de la matriz
 
 var arr = [
   [ 3            ],

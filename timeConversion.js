@@ -1,6 +1,6 @@
-//Algoritmo que convierte una hora en formato de 12 horas (AM/PM) a formato de hora militar (24 horas). 
-//En el formato de 12 horas, la medianoche se representa como 12:00:00AM y el mediodía como 12:00:00PM. 
-//Sin embargo, en el formato de 24 horas, la medianoche es 00:00:00 y el mediodía es 12:00:00.
+// Algoritmo que convierte una hora en formato de 12 horas (AM/PM) a formato de hora militar (24 horas). 
+// En el formato de 12 horas, la medianoche se representa como 12:00:00AM y el mediodía como 12:00:00PM. 
+// Sin embargo, en el formato de 24 horas, la medianoche es 00:00:00 y el mediodía es 12:00:00.
 
 function conversionHora(s) {
 

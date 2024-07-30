@@ -1,4 +1,4 @@
-//Algoritmo que imprime una escalera de caracteres # dado un número de filas n
+// Algoritmo que imprime una escalera de caracteres # dado un número de filas n
 
 var n = 4;
 

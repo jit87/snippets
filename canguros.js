@@ -1,4 +1,4 @@
-//Ejercicio de Hackerrank de saltos de canguros.
+// Ejercicio de Hackerrank de saltos de canguros.
 
 function kangaroo(x1, v1, x2, v2) {
     // Si los canguros tienen la misma velocidad pero diferentes posiciones iniciales, nunca se encontrarán

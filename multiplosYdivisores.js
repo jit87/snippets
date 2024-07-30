@@ -1,4 +1,3 @@
-
 // Algoritmo que obtiene los múltiplos del vector A y luego comprueba si estos múltiplos elegidos.
 // son divisores de los números del vector B.
 // Para este ejemplo debe de imprimir count = 3. Es decir los 3 múltiplos de A que son divisores de B.

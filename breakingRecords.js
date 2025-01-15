@@ -1,7 +1,7 @@
 
 //Este algoritmo analiza las puntuaciones de una temporada de juegos y cuenta cuántas veces
 //se rompen los récords de mayor y menor puntuación, comenzando a partir del primer juego
-//como referencia inicial. La temporda se pasa como un vector de números (values),
+//como referencia inicial. La temporda se pasa como un vector de números (scores),
 //y la funcion imprime el numero de veces que se rompen los record (max_breaks, min_breaks)
 
 var scores = [10, 5, 20, 20, 4, 5, 2, 25, 1];

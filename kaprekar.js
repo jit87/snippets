@@ -1,8 +1,8 @@
 
 /* La constante de Kaprekar es el número 6174. 
-/* Esta constante matemática surge al aplicar sucesivamente el siguiente algoritmo a cualquier número de cuatro dígitos (salvo aquellos con todos los dígitos iguales). 
-/* El algoritmo consiste en formar el número mayor y el número menor a partir de los dígitos del número original, 
-/* y luego se resta el menor del mayor. Al repetir este proceso, invariablemente se llega al 6174. */
+/* Dicha constante matemática surge al aplicar sucesivamente el siguiente algoritmo a cualquier número de cuatro dígitos (salvo aquellos con todos los dígitos iguales). 
+/* El algoritmo consiste en formar el número mayor y el número menor a partir de los dígitos del número que le pasamos, 
+/* y luego se resta el menor al mayor. Al repetir este proceso, siempre se llega al número 6174.*/
 
 function compareNumbers1(a, b) {
     return b - a;

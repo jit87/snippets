@@ -1,4 +1,9 @@
 
+/* La constante de Kaprekar es el número 6174. 
+/* Esta constante matemática surge al aplicar sucesivamente el siguiente algoritmo a cualquier número de cuatro dígitos (salvo aquellos con todos los dígitos iguales). 
+/* El algoritmo consiste en formar el número mayor y el número menor a partir de los dígitos del número original, 
+/* y luego se resta el menor del mayor. Al repetir este proceso, invariablemente se llega al 6174. */
+
 function compareNumbers1(a, b) {
     return b - a;
 }
@@ -25,7 +30,7 @@ function kaprekar(numero) {
     //Ordenamos de mayor menor para obtener el numero más grande posible
     vectorMayor = vectorDigitos.sort(compareNumbers1);
 
-    //Convertimos a entero el vector de dígitos y obtenemos el valor meno//invirtiendo el orden
+    //Convertimos a entero el vector de dígitos y obtenemos el valor menor invirtiendo el orden
     valorMayor = Number(vectorMayor.join(""));
     vectorMenor = vectorMayor.reverse();
     valorMenor = Number(vectorMenor.join(""));

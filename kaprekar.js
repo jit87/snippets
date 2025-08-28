@@ -8,10 +8,6 @@ function compareNumbers1(a, b) {
     return b - a;
 }
 
-function compareNumbers2(a, b) {
-    return a - b;
-}
-
 var iteracion = 0;
 
 function kaprekar(numero) {

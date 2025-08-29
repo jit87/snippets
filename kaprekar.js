@@ -19,11 +19,11 @@ function kaprekar(numero) {
     var valorMayor = 0;
     var valorMenor = 0;
 
-    //Transformamos el numero en un vector de digitos para poder operar
+    //Transformamos el número en un vector de dígitos para poder operar
     vectorDigitos = numero.toString().split('').map(Number);
     console.log(vectorDigitos);
 
-    //Ordenamos de mayor menor para obtener el numero más grande posible
+    //Ordenamos de mayor a menor para obtener el numero más grande posible
     vectorMayor = vectorDigitos.sort(compareNumbers1);
 
     //Convertimos a entero el vector de dígitos y obtenemos el valor menor invirtiendo el orden
